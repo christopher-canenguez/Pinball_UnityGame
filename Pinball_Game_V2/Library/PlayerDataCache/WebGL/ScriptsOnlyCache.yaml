@@ -12,8 +12,6 @@ ScriptsOnlyBuild:
     - PaddleDriverScript
     - QuitGame
     - SpringScript
-    Unity.PlasticSCM.Editor.dll:
-    - Unity.PlasticSCM.Editor.PlasticWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -97,25 +95,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 2868}
+      Script: {instanceID: 2870}
     - Class: 114
-      Script: {instanceID: 3030}
+      Script: {instanceID: 3032}
     - Class: 114
-      Script: {instanceID: 3570}
+      Script: {instanceID: 3572}
     - Class: 114
-      Script: {instanceID: 3690}
+      Script: {instanceID: 3692}
     - Class: 114
-      Script: {instanceID: 3816}
+      Script: {instanceID: 3818}
     - Class: 114
-      Script: {instanceID: 3824}
+      Script: {instanceID: 3826}
     - Class: 114
-      Script: {instanceID: 3916}
+      Script: {instanceID: 3918}
     - Class: 114
-      Script: {instanceID: 4082}
+      Script: {instanceID: 4084}
     - Class: 114
-      Script: {instanceID: 4240}
+      Script: {instanceID: 4242}
     - Class: 114
-      Script: {instanceID: 4290}
+      Script: {instanceID: 4292}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -200,23 +198,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2782}
     - Class: 114
-      Script: {instanceID: 2868}
+      Script: {instanceID: 2816}
     - Class: 114
-      Script: {instanceID: 3030}
+      Script: {instanceID: 2870}
     - Class: 114
-      Script: {instanceID: 3570}
+      Script: {instanceID: 3032}
     - Class: 114
-      Script: {instanceID: 3690}
+      Script: {instanceID: 3572}
     - Class: 114
-      Script: {instanceID: 3824}
+      Script: {instanceID: 3692}
     - Class: 114
-      Script: {instanceID: 3916}
+      Script: {instanceID: 3826}
     - Class: 114
-      Script: {instanceID: 4240}
+      Script: {instanceID: 3918}
     - Class: 114
-      Script: {instanceID: 4290}
+      Script: {instanceID: 4242}
     - Class: 114
-      Script: {instanceID: 25322}
+      Script: {instanceID: 4292}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -456,6 +454,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: QuitGame
   - hash:
       serializedVersion: 2
       Hash: 8e6ceabfd38a184413d69b7db56c89cc
@@ -720,14 +724,8 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: QuitGame
   platform: 20
   scenePathNames:
   - Assets/Scenes/Level01.unity
   - Assets/Scenes/Level02.unity
-  playerPath: /Users/chriscanenguez/Documents/02 Projects/Unity Projects/Pinball_Game_V2/Build/PinBall_Game_Build
+  playerPath: /Users/chriscanenguez/Documents/02 Projects/Unity Projects/Pinball_UnityGame/Pinball_Game_V2/Build/PinballBuild

@@ -5404,7 +5404,7 @@ MonoBehaviour:
   losePanel: {fileID: 1554790860}
   losePanel_scoreText: {fileID: 1233498877}
   score: 0
-  scoreToBeat: 1000
+  scoreToBeat: 750
   ballCount: 3
   highScore: 0
   gameState: 1
